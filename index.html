@@ -1,0 +1,3495 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>Recvite Service Theme – Just another WordPress site</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Recvite Service Theme » Feed"
+      href="https://recvite.smartdemowp.com/feed/"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Recvite Service Theme » Comments Feed"
+      href="https://recvite.smartdemowp.com/comments/feed/"
+    />
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            "https:\/\/recvite.smartdemowp.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.5",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case "flag":
+              return n(
+                e,
+                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+              )
+                ? !1
+                : !n(
+                    e,
+                    "\ud83c\uddfa\ud83c\uddf3",
+                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                  ) &&
+                    !n(
+                      e,
+                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                    );
+            case "emoji":
+              return !n(
+                e,
+                "\ud83d\udc26\u200d\u2b1b",
+                "\ud83d\udc26\u200b\u2b1b"
+              );
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              "undefined" != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement("canvas"),
+            a = r.getContext("2d", { willReadFrequently: !0 }),
+            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement("script");
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        "undefined" != typeof Promise &&
+          ((o = "wpEmojiSettingsSupports"),
+          (s = ["flag", "emoji"]),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener("DOMContentLoaded", e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  "object" == typeof e &&
+                  "number" == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  "object" == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                "undefined" != typeof Worker &&
+                "undefined" != typeof OffscreenCanvas &&
+                "undefined" != typeof URL &&
+                URL.createObjectURL &&
+                "undefined" != typeof Blob
+              )
+                try {
+                  var e =
+                      "postMessage(" +
+                      f.toString() +
+                      "(" +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ","
+                      ) +
+                      "));",
+                    r = new Blob([e], { type: "text/javascript" }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: "wpTestEmojiSupports",
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  "flag" !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+      /* ]]> */
+    </script>
+    <link
+      rel="stylesheet"
+      id="recvite-google-fonts-css"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&amp;display=swap"
+      type="text/css"
+      media="all"
+    />
+    <style id="wp-emoji-styles-inline-css" type="text/css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="css/style.min.css"
+      type="text/css"
+      media="all"
+    />
+    <style id="classic-theme-styles-inline-css" type="text/css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      id="contact-form-7-css"
+      href="css/styles.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="combine-vc-ele-css-css"
+      href="css/cvec_post_375.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="redux-extendify-styles-css"
+      href="css/extendify-utilities.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="font-awesome-all-css"
+      href="css/font-awesome-all.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="flaticon-css"
+      href="css/flaticon.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="owl-css"
+      href="css/owl.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="bootstrap-css"
+      href="css/bootstrap.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="jquery-fancybox-css"
+      href="css/jquery.fancybox.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="animate-css"
+      href="css/animate.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="recvite-color-css"
+      href="css/color.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="recvite-style-two-css"
+      href="css/style.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="recvite-news-section-css"
+      href="css/news-section.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="recvite-project-section-css"
+      href="css/project-section.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="recvite-service-details-css"
+      href="css/service-details.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="recvite-blog-page-css"
+      href="css/blog-page.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="recvite-error-page-css"
+      href="css/error-page.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="recvite-style-css"
+      href="css/style_1.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="recvite-theme-style-css"
+      href="css/theme-style.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="recvite-responsive-css"
+      href="css/responsive.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="recvite-rtl-css"
+      href="css/rtl.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-icons-css"
+      href="css/elementor-icons.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-frontend-css"
+      href="css/frontend.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="swiper-css"
+      href="css/swiper.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-9-css"
+      href="css/post-9.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-375-css"
+      href="css/post-375.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-icons-shared-1-css"
+      href="css/flaticon-icon.css"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="js/jquery.min.js"
+      id="jquery-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/jquery-migrate.min.js"
+      id="jquery-migrate-js"
+    ></script>
+    <link
+      rel="https://api.w.org/"
+      href="https://recvite.smartdemowp.com/wp-json/"
+    />
+    <link
+      rel="alternate"
+      type="application/json"
+      href="https://recvite.smartdemowp.com/wp-json/wp/v2/pages/375"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="https://recvite.smartdemowp.com/xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.5.5" />
+    <link rel="canonical" href="https://recvite.smartdemowp.com/" />
+    <link rel="shortlink" href="https://recvite.smartdemowp.com/" />
+    <link
+      rel="alternate"
+      type="application/json+oembed"
+      href="https://recvite.smartdemowp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frecvite.smartdemowp.com%2F"
+    />
+    <link
+      rel="alternate"
+      type="text/xml+oembed"
+      href="https://recvite.smartdemowp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frecvite.smartdemowp.com%2F&amp;format=xml"
+    />
+    <meta name="generator" content="Redux 4.4.9" />
+    <meta
+      name="generator"
+      content="Elementor 3.17.3; features: e_dom_optimization, e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto"
+    />
+    <link rel="icon" href="favicon.ico" sizes="32x32" />
+    <link rel="icon" href="favicon.ico" sizes="192x192" />
+    <link rel="apple-touch-icon" href="favicon.ico" />
+    <meta
+      name="msapplication-TileImage"
+      content="https://recvite.smartdemowp.com/wp-content/uploads/favicon.ico"
+    />
+    <style title="dynamic-css" class="redux-options-output">
+      :root {
+        --recvite_primary_color: ;
+      }
+      .page-title {
+        background-color: #ffffff;
+        background-image: url("images/page-title.jpg");
+      }
+      .footer-top {
+        background-color: #ffffff;
+        background-image: url("images/footer-1.jpg");
+      }
+    </style>
+    <script src="js/wp-emoji-release.min.js" defer=""></script>
+  </head>
+
+  <body
+    class="home page-template page-template-elementor_header_footer page page-id-375 elementor-default elementor-template-full-width elementor-kit-9 elementor-page elementor-page-375"
+  >
+    <div class="boxed_wrapper ltr">
+      <div class="preloader"></div>
+
+      <header class="main-header style-one">
+        <div class="header-top">
+          <div class="top-inner clearfix">
+            <ul class="info-list pull-left clearfix">
+              <li>
+                <i class="flaticon-email"></i>
+                <a
+                  href="/cdn-cgi/l/email-protection#3f515a5a5b575a534f7f5a475e524f535a115c5052"
+                  ><span
+                    class="__cf_email__"
+                    data-cfemail="ee808b8b8a868b829eae8b968f839e828bc08d8183"
+                    >[email�&nbsp;protected]</span
+                  ></a
+                >
+              </li>
+              <li>
+                <i class="flaticon-telephone"></i>
+                <a href="tel:928886660000">92 888 666 0000</a>
+              </li>
+              <li><i class="flaticon-pin"></i> Suite 20 Golden Street USA</li>
+            </ul>
+            <div class="right-column pull-right clearfix">
+              <ul class="social-links clearfix">
+                <li>
+                  <a href="https://www.facebook.com/"
+                    ><i class="fab fa-facebook-square"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.pinterest.com/"
+                    ><i class="fab fa-pinterest-p"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-lower">
+          <div class="outer-box">
+            <div class="logo-box">
+              <a href="https://recvite.smartdemowp.com/">
+                <img
+                  src="images/logo-1.png"
+                  alt="Logo"
+                  title="Recvite Service Theme"
+                />
+              </a>
+            </div>
+            <div class="menu-area">
+              <div class="mobile-nav-toggler">
+                <i class="icon-bar"></i>
+                <i class="icon-bar"></i>
+                <i class="icon-bar"></i>
+              </div>
+              <nav class="main-menu navbar-expand-md navbar-light">
+                <div
+                  class="collapse navbar-collapse show clearfix"
+                  id="navbarSupportedContent"
+                >
+                  <ul id="menu-primary" class="navigation clearfix">
+                    <li
+                      id="menu-item-1120"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-375 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1120"
+                    >
+                      <a
+                        href="https://recvite.smartdemowp.com/"
+                        aria-current="page"
+                        >Home</a
+                      >
+                      <ul class="sub-menu">
+                        <li
+                          id="menu-item-400"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-375 current_page_item menu-item-400"
+                        >
+                          <a
+                            href="https://recvite.smartdemowp.com/"
+                            aria-current="page"
+                            >Home Page One</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1121"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1121"
+                        >
+                          <a href="https://recvite.smartdemowp.com/home-two/"
+                            >Home Page Two</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      id="menu-item-1022"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1022"
+                    >
+                      <a href="https://recvite.smartdemowp.com/about-us/"
+                        >About Us</a
+                      >
+                      <ul class="sub-menu">
+                        <li
+                          id="menu-item-1185"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1185"
+                        >
+                          <a href="https://recvite.smartdemowp.com/about-us/"
+                            >About Us</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-402"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402"
+                        >
+                          <a
+                            href="https://recvite.smartdemowp.com/latest-projects/"
+                            >Latest Projects</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1001"
+                          class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1001"
+                        >
+                          <a
+                            href="https://recvite.smartdemowp.com/project/project-details/"
+                            >Project Details</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1119"
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1119"
+                        >
+                          <a href="https://recvite.smartdemowp.com/404"
+                            >Error Page</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      id="menu-item-1111"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1111"
+                    >
+                      <a href="https://recvite.smartdemowp.com/our-solutions/"
+                        >Our Solutions</a
+                      >
+                      <ul class="sub-menu">
+                        <li
+                          id="menu-item-1189"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1189"
+                        >
+                          <a
+                            href="https://recvite.smartdemowp.com/our-solutions/"
+                            >Our Solutions</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1105"
+                          class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1105"
+                        >
+                          <a
+                            href="https://recvite.smartdemowp.com/service/corporate-program/"
+                            >Corporate Program</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1106"
+                          class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1106"
+                        >
+                          <a
+                            href="https://recvite.smartdemowp.com/service/hr-consulting/"
+                            >HR Consulting</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1107"
+                          class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1107"
+                        >
+                          <a
+                            href="https://recvite.smartdemowp.com/service/leadership-training/"
+                            >Leadership Training</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1108"
+                          class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1108"
+                        >
+                          <a
+                            href="https://recvite.smartdemowp.com/service/staff-management/"
+                            >Staff Management</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1109"
+                          class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1109"
+                        >
+                          <a
+                            href="https://recvite.smartdemowp.com/service/staffing-solutions/"
+                            >Staffing Solutions</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1110"
+                          class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1110"
+                        >
+                          <a
+                            href="https://recvite.smartdemowp.com/service/technology-resource/"
+                            >Technology Resource</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      id="menu-item-401"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-401"
+                    >
+                      <a href="https://recvite.smartdemowp.com/blog/">Blog</a>
+                      <ul class="sub-menu">
+                        <li
+                          id="menu-item-924"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-924"
+                        >
+                          <a href="https://recvite.smartdemowp.com/blog/"
+                            >Blog Standard</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-923"
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-923"
+                        >
+                          <a
+                            href="https://recvite.smartdemowp.com/blog/?blog_layout=2"
+                            >Blog Grid</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-2383"
+                          class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2383"
+                        >
+                          <a
+                            href="https://recvite.smartdemowp.com/we-make-a-revolution-in-word-class-building/"
+                            >Blog Single</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      id="menu-item-1025"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1025"
+                    >
+                      <a href="https://recvite.smartdemowp.com/contact-us/"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div class="menu-right-content clearfix">
+              <div class="search-box-outer">
+                <div class="dropdown">
+                  <button
+                    class="search-box-btn"
+                    type="button"
+                    id="dropdownMenu3"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <i class="flaticon-magnifying-glass"></i>
+                  </button>
+                  <div
+                    class="dropdown-menu search-panel"
+                    aria-labelledby="dropdownMenu3"
+                  >
+                    <div class="form-container">
+                      <form
+                        method="post"
+                        action="https://recvite.smartdemowp.com/"
+                      >
+                        <div class="form-group">
+                          <input
+                            type="search"
+                            name="s"
+                            value=""
+                            placeholder="Search...."
+                            required=""
+                          />
+                          <button type="submit" class="search-btn">
+                            <span class="fas fa-search"></span>
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-box">
+                <a
+                  href="https://recvite.smartdemowp.com/contact-us/"
+                  class="theme-btn-one"
+                >
+                  Book appointment
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sticky-header">
+          <div class="outer-box">
+            <div class="logo-box">
+              <figure class="logo">
+                <a href="https://recvite.smartdemowp.com/">
+                  <img
+                    src="images/logo-1.png"
+                    alt="Logo"
+                    title="Recvite Service Theme"
+                  />
+                </a>
+              </figure>
+            </div>
+            <div class="menu-area">
+              <nav class="main-menu clearfix"></nav>
+            </div>
+            <div class="menu-right-content clearfix">
+              <div class="search-box-outer">
+                <div class="dropdown">
+                  <button
+                    class="search-box-btn"
+                    type="button"
+                    id="dropdownMenu4"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <i class="flaticon-magnifying-glass"></i>
+                  </button>
+                  <div
+                    class="dropdown-menu search-panel"
+                    aria-labelledby="dropdownMenu4"
+                  >
+                    <div class="form-container">
+                      <form
+                        method="post"
+                        action="https://recvite.smartdemowp.com/"
+                      >
+                        <div class="form-group">
+                          <input
+                            type="search"
+                            name="s"
+                            value=""
+                            placeholder="Search...."
+                            required=""
+                          />
+                          <button type="submit" class="search-btn">
+                            <span class="fas fa-search"></span>
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-box">
+                <a
+                  href="https://recvite.smartdemowp.com/contact-us/"
+                  class="theme-btn-one"
+                >
+                  Book appointment
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+        <div class="close-btn"><i class="fas fa-times"></i></div>
+        <nav class="menu-box">
+          <div class="nav-logo">
+            <a href="https://recvite.smartdemowp.com/">
+              <img
+                src="images/logo-1.png"
+                alt="Logo"
+                title="Recvite Service Theme"
+            /></a>
+          </div>
+          <div class="menu-outer"></div>
+          <div class="contact-info">
+            <h4>Contact Info</h4>
+            <ul>
+              <li>Chicago 12, Melborne City, USA</li>
+              <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+              <li>
+                <a
+                  href="/cdn-cgi/l/email-protection#4d24232b220d28352c203d2128632e2220"
+                  ><span
+                    class="__cf_email__"
+                    data-cfemail="ec85828a83ac89948d819c8089c28f8381"
+                    >[email�&nbsp;protected]</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <ul class="clearfix">
+              <li>
+                <a href="https://twitter.com/"
+                  ><span class="fab fa-twitter"></span
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/"
+                  ><span class="fab fa-facebook-square"></span
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.pinterest.com/"
+                  ><span class="fab fa-pinterest-p"></span
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/"
+                  ><span class="fab fa-instagram"></span
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/"
+                  ><span class="fab fa-youtube"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div
+        data-elementor-type="wp-page"
+        data-elementor-id="375"
+        class="elementor elementor-375"
+      >
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-8384207 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="8384207"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5e7582d"
+              data-id="5e7582d"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-72cd7d2 elementor-widget elementor-widget-recvite_banner"
+                  data-id="72cd7d2"
+                  data-element_type="widget"
+                  data-widget_type="recvite_banner.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="banner-section">
+                      <div
+                        class="banner-carousel owl-theme owl-carousel"
+                        data-owl='{" loop":"true","autoplay":"true","autoplay_speed":"3000","arrows":"false"}'
+                      >
+                        <div class="slide-item">
+                          <div
+                            class="image-layer"
+                            style="background-image: url(images/banner-1.jpg)"
+                          ></div>
+                          <div class="auto-container">
+                            <div class="content-box">
+                              <h1 class="typo-title-text">
+                                The Right Candidate for your Business
+                              </h1>
+
+                              <p>
+                                There are many of passages of lorem Ipsum, but
+                                the majori have <br />suffered alteration in
+                                some form.
+                              </p>
+                              <div class="btn-box">
+                                <a
+                                  href="https://recvite.smartdemowp.com/our-solutions/"
+                                  class="theme-btn-one"
+                                  >Discover More</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-a7302cb elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="a7302cb"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4e9d664"
+              data-id="4e9d664"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-011799d elementor-widget elementor-widget-recvite_feature_section"
+                  data-id="011799d"
+                  data-element_type="widget"
+                  data-widget_type="recvite_feature_section.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="feature-section bg-color-1 centred">
+                      <div class="auto-container">
+                        <div class="row clearfix">
+                          <div
+                            class="col-lg-4 col-md-6 col-sm-12 feature-block"
+                          >
+                            <div class="feature-block-one">
+                              <div class="inner-box">
+                                <div class="icon-box">
+                                  <i
+                                    aria-hidden="true"
+                                    class="flaticon-mission"
+                                  ></i>
+                                </div>
+
+                                <h2 class="typo-title-text">
+                                  Leadership <br />Training
+                                </h2>
+
+                                <figure class="image-box">
+                                  <img
+                                    fetchpriority="high"
+                                    decoding="async"
+                                    width="310"
+                                    height="183"
+                                    src="images/feature-1.jpg"
+                                    class="attachment-full size-full"
+                                    alt=""
+                                  />
+                                  <a
+                                    href="https://recvite.smartdemowp.com/service/leadership-training/"
+                                    class="theme-btn-one"
+                                    >Read more.
+                                  </a>
+                                </figure>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-4 col-md-6 col-sm-12 feature-block"
+                          >
+                            <div class="feature-block-one">
+                              <div class="inner-box">
+                                <div class="icon-box">
+                                  <i
+                                    aria-hidden="true"
+                                    class="flaticon-creative-idea"
+                                  ></i>
+                                </div>
+
+                                <h2 class="typo-title-text typo-title-text">
+                                  Improving <br />Resources
+                                </h2>
+
+                                <figure class="image-box">
+                                  <img
+                                    decoding="async"
+                                    width="310"
+                                    height="183"
+                                    src="images/feature-2.jpg"
+                                    class="attachment-full size-full"
+                                    alt=""
+                                  />
+                                  <a
+                                    href="https://recvite.smartdemowp.com/service/improving-resources/"
+                                    class="theme-btn-one"
+                                    >Read more</a
+                                  >
+                                </figure>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-4 col-md-6 col-sm-12 feature-block"
+                          >
+                            <div class="feature-block-one">
+                              <div class="inner-box">
+                                <div class="icon-box">
+                                  <i
+                                    aria-hidden="true"
+                                    class="flaticon-solution"
+                                  ></i>
+                                </div>
+
+                                <h2
+                                  class="typo-title-text typo-title-text typo-title-text"
+                                >
+                                  Recruitement <br />Solutions
+                                </h2>
+
+                                <figure class="image-box">
+                                  <img
+                                    decoding="async"
+                                    width="310"
+                                    height="183"
+                                    src="images/feature-3.jpg"
+                                    class="attachment-full size-full"
+                                    alt=""
+                                  />
+                                  <a
+                                    href="https://recvite.smartdemowp.com/service/recruitement-solutions/"
+                                    class="theme-btn-one"
+                                    >Read more</a
+                                  >
+                                </figure>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-bb06348 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="bb06348"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-69515f8"
+              data-id="69515f8"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-f78c744 elementor-widget elementor-widget-html"
+                  data-id="f78c744"
+                  data-element_type="widget"
+                  data-widget_type="html.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div class="quote-box">
+                      <div class="auto-container">
+                        <div class="inner-box">
+                          <div class="icon-box"></div>
+                          <p>
+                            Train people quickly well with quality business. So
+                            they highly efficient manufactured products. We can
+                            help you build.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-6162903 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="6162903"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0b3b328"
+              data-id="0b3b328"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-79058c2 elementor-widget elementor-widget-recvite_about_section"
+                  data-id="79058c2"
+                  data-element_type="widget"
+                  data-widget_type="recvite_about_section.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="about-section">
+                      <div class="auto-container">
+                        <div class="row clearfix">
+                          <div
+                            class="col-lg-6 col-md-12 col-sm-12 image-column"
+                          >
+                            <div class="image_block_1">
+                              <div class="image-box">
+                                <figure class="image image-1">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="510"
+                                    height="584"
+                                    src="images/about-1-1.jpg"
+                                    class="attachment-full size-full"
+                                    alt=""
+                                  />
+                                </figure>
+                                <figure class="image image-2">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="350"
+                                    height="331"
+                                    src="images/about-2.jpg"
+                                    class="attachment-full size-full"
+                                    alt=""
+                                  />
+                                </figure>
+                                <div class="image-content">
+                                  <div class="icon-box">
+                                    <i
+                                      aria-hidden="true"
+                                      class="flaticon-recruitment"
+                                    ></i>
+                                  </div>
+                                  <h5>Find Perfect Candidate</h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-6 col-md-12 col-sm-12 content-column"
+                          >
+                            <div class="content_block_1">
+                              <div class="content-box">
+                                <div class="sec-title">
+                                  <p class="typo-tagline-text">
+                                    Welcome to Agency
+                                  </p>
+
+                                  <h2 class="typo-title-text">
+                                    Best Quality Recruitment Staffing Agency
+                                  </h2>
+                                </div>
+                                <div class="text">
+                                  <p>
+                                    Lorem ipsum is simply free text dolor sit
+                                    amet, consectetur notted adipisicing elit
+                                    sed do eiusmod tempor incididunt ut labore
+                                    et dolore magna aliqua lonm andhn.
+                                  </p>
+                                </div>
+                                <div class="inner-box clearfix">
+                                  <div class="single-item">
+                                    <h5><span>01</span>Strategic Partners</h5>
+                                    <p>
+                                      Lorem ipsum dolor sited is amet
+                                      consectetur notted.
+                                    </p>
+                                  </div>
+                                  <div class="single-item">
+                                    <h5><span>02</span>Sourcing the Best</h5>
+                                    <p>
+                                      Lorem ipsum dolor sited is amet
+                                      consectetur notted.
+                                    </p>
+                                  </div>
+                                </div>
+                                <div class="lower-box">
+                                  <div class="author-box">
+                                    <figure class="author-thumb">
+                                      <img
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="73"
+                                        height="73"
+                                        src="images/author-1.png"
+                                        class="attachment-full size-full"
+                                        alt=""
+                                      />
+                                    </figure>
+                                    <figure class="signature-box">
+                                      <img
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="185"
+                                        height="56"
+                                        src="images/signature-1.png"
+                                        class="attachment-full size-full"
+                                        alt=""
+                                      />
+                                    </figure>
+                                    <span class="designation"
+                                      >CEO &amp; CO FOUNDER</span
+                                    >
+                                  </div>
+                                  <div class="experienct-box">
+                                    <div class="inner">
+                                      <h2>38</h2>
+                                      <p>Years of Experience</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-4fe97ba elementor-section-full_width bg-color-1 elementor-section-height-default elementor-section-height-default"
+          data-id="4fe97ba"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e56253"
+              data-id="3e56253"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-0959faf elementor-widget elementor-widget-recvite_service"
+                  data-id="0959faf"
+                  data-element_type="widget"
+                  data-widget_type="recvite_service.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="service-section sec-pad">
+                      <div class="auto-container">
+                        <div class="sec-title centred">
+                          <p class="typo-tagline-text">Our All Services List</p>
+
+                          <h2 class="typo-title-text">
+                            Outsourced HR Services
+                          </h2>
+                        </div>
+                        <div class="row clearfix">
+                          <div
+                            class="col-lg-4 col-md-6 col-sm-12 service-block"
+                          >
+                            <div
+                              class="service-block-one wow fadeInUp animated animated"
+                              data-wow-delay="00ms"
+                              data-wow-duration="1500ms"
+                            >
+                              <div class="inner-box">
+                                <figure class="image-box">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="370"
+                                    height="248"
+                                    src="images/service-1.jpg"
+                                    class="attachment-full size-full"
+                                    alt=""
+                                  />
+                                  <span class="category">MANAGEMENT</span>
+                                  <i
+                                    aria-hidden="true"
+                                    class="flaticon-consulting"
+                                  ></i>
+                                </figure>
+                                <div class="lower-content">
+                                  <h3>
+                                    <a
+                                      href="https://recvite.smartdemowp.com/service/hr-consulting/"
+                                    >
+                                      HR Consulting</a
+                                    >
+                                  </h3>
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    notted adipisicing elit sed do eiusmod.
+                                  </p>
+                                  <div class="link">
+                                    <a
+                                      href="https://recvite.smartdemowp.com/service/hr-consulting/"
+                                      >Read More</a
+                                    >
+                                  </div>
+                                  <div class="light-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      class="flaticon-consulting"
+                                    ></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-4 col-md-6 col-sm-12 service-block"
+                          >
+                            <div
+                              class="service-block-one wow fadeInUp animated animated"
+                              data-wow-delay="300ms"
+                              data-wow-duration="1500ms"
+                            >
+                              <div class="inner-box">
+                                <figure class="image-box">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="370"
+                                    height="248"
+                                    src="images/service-2.jpg"
+                                    class="attachment-full size-full"
+                                    alt=""
+                                  />
+                                  <span class="category">RESOURCES</span>
+                                  <i
+                                    aria-hidden="true"
+                                    class="flaticon-controller"
+                                  ></i>
+                                </figure>
+                                <div class="lower-content">
+                                  <h3>
+                                    <a
+                                      href="https://recvite.smartdemowp.com/service/technology-resource/"
+                                    >
+                                      Technology Resource</a
+                                    >
+                                  </h3>
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    notted adipisicing elit sed do eiusmod.
+                                  </p>
+                                  <div class="link">
+                                    <a
+                                      href="https://recvite.smartdemowp.com/service/technology-resource/"
+                                      >Read More</a
+                                    >
+                                  </div>
+                                  <div class="light-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      class="flaticon-consulting"
+                                    ></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-4 col-md-6 col-sm-12 service-block"
+                          >
+                            <div
+                              class="service-block-one wow fadeInUp animated animated"
+                              data-wow-delay="600ms"
+                              data-wow-duration="1500ms"
+                            >
+                              <div class="inner-box">
+                                <figure class="image-box">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="370"
+                                    height="248"
+                                    src="images/service-3.jpg"
+                                    class="attachment-full size-full"
+                                    alt=""
+                                  />
+                                  <span class="category">RESOURCES</span>
+                                  <i
+                                    aria-hidden="true"
+                                    class="flaticon-policy"
+                                  ></i>
+                                </figure>
+                                <div class="lower-content">
+                                  <h3>
+                                    <a
+                                      href="https://recvite.smartdemowp.com/service/staffing-solutions/"
+                                    >
+                                      Staffing Solutions</a
+                                    >
+                                  </h3>
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    notted adipisicing elit sed do eiusmod.
+                                  </p>
+                                  <div class="link">
+                                    <a
+                                      href="https://recvite.smartdemowp.com/service/staffing-solutions/"
+                                      >Read More</a
+                                    >
+                                  </div>
+                                  <div class="light-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      class="flaticon-consulting"
+                                    ></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-9a78a5b elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="9a78a5b"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-253237c"
+              data-id="253237c"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-f428c49 elementor-widget elementor-widget-recvite_agency"
+                  data-id="f428c49"
+                  data-element_type="widget"
+                  data-widget_type="recvite_agency.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="agency-section">
+                      <div class="auto-container">
+                        <div class="row align-items-center clearfix">
+                          <div
+                            class="col-lg-6 col-md-12 col-sm-12 content-column"
+                          >
+                            <div class="content_block_2">
+                              <div class="content-box">
+                                <div class="sec-title light">
+                                  <p class="typo-tagline-text">
+                                    Learn About Agency
+                                  </p>
+
+                                  <h2 class="typo-title-text">
+                                    We’re Reliable &amp; Cost Efficiant
+                                    Recruitment Agency
+                                  </h2>
+                                </div>
+                                <div class="btn-box">
+                                  <a
+                                    href="https://recvite.smartdemowp.com/our-solutions/"
+                                    class="theme-btn-one"
+                                    >Discover More</a
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-6 col-md-12 col-sm-12 content-column"
+                          >
+                            <div class="content_block_3">
+                              <div class="content-box">
+                                <div class="tabs-box">
+                                  <div class="tab-btn-box">
+                                    <ul class="tab-btns tab-buttons clearfix">
+                                      <li
+                                        class="tab-btn active-btn"
+                                        data-tab="#tab-agency1"
+                                      >
+                                        For Employers
+                                      </li>
+                                      <li
+                                        class="tab-btn"
+                                        data-tab="#tab-agency2"
+                                      >
+                                        For Employees
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="tabs-content">
+                                    <div
+                                      class="tab active-tab"
+                                      id="tab-agency1"
+                                    >
+                                      <div class="inner-box">
+                                        <figure class="image-box">
+                                          <img
+                                            loading="lazy"
+                                            decoding="async"
+                                            width="208"
+                                            height="237"
+                                            src="images/agency-1-2.jpg"
+                                            class="attachment-full size-full"
+                                            alt=""
+                                          />
+                                        </figure>
+                                        <div class="text">
+                                          <p>
+                                            There are many simply free text
+                                            available variations of passages of
+                                            but the majority have in some.
+                                          </p>
+                                          <ul class="list clearfix">
+                                            <li>
+                                              Support on hiring employeers
+                                            </li>
+                                            <li>
+                                              Get rxceptional service for growth
+                                            </li>
+                                            <li>
+                                              Outsourced consulting business
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="tab" id="tab-agency2">
+                                      <div class="inner-box">
+                                        <figure class="image-box">
+                                          <img
+                                            loading="lazy"
+                                            decoding="async"
+                                            width="208"
+                                            height="237"
+                                            src="images/agency-1-2.jpg"
+                                            class="attachment-full size-full"
+                                            alt=""
+                                          />
+                                        </figure>
+                                        <div class="text">
+                                          <p>
+                                            There are many simply free text
+                                            available variations of passages of
+                                            but the majority have in some.
+                                          </p>
+                                          <ul class="list clearfix">
+                                            <li>
+                                              Support on hiring employeers
+                                            </li>
+                                            <li>
+                                              Get rxceptional service for growth
+                                            </li>
+                                            <li>
+                                              Outsourced consulting business
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-c7d5ae1 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="c7d5ae1"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8d6d12c"
+              data-id="8d6d12c"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-b76c9df elementor-widget elementor-widget-recvite_funfact"
+                  data-id="b76c9df"
+                  data-element_type="widget"
+                  data-widget_type="recvite_funfact.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="funfact-section centred">
+                      <div class="auto-container">
+                        <div class="inner-container">
+                          <div class="row clearfix">
+                            <div
+                              class="col-lg-3 col-md-6 col-sm-12 counter-block"
+                            >
+                              <div class="counter-block-one">
+                                <div class="inner-box">
+                                  <div class="icon-box">
+                                    <i
+                                      aria-hidden="true"
+                                      class="flaticon-scrum"
+                                    ></i>
+                                  </div>
+                                  <div class="count-outer count-box">
+                                    <span
+                                      class="count-text"
+                                      data-speed="1500"
+                                      data-stop="8080"
+                                      >0</span
+                                    >
+                                  </div>
+                                  <p>Project Completed</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="col-lg-3 col-md-6 col-sm-12 counter-block"
+                            >
+                              <div class="counter-block-one">
+                                <div class="inner-box">
+                                  <div class="icon-box">
+                                    <i
+                                      aria-hidden="true"
+                                      class="flaticon-business-idea"
+                                    ></i>
+                                  </div>
+                                  <div class="count-outer count-box">
+                                    <span
+                                      class="count-text"
+                                      data-speed="1500"
+                                      data-stop="697"
+                                      >0</span
+                                    >
+                                  </div>
+                                  <p>Employer Solutions</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="col-lg-3 col-md-6 col-sm-12 counter-block"
+                            >
+                              <div class="counter-block-one">
+                                <div class="inner-box">
+                                  <div class="icon-box">
+                                    <i
+                                      aria-hidden="true"
+                                      class="flaticon-recruit"
+                                    ></i>
+                                  </div>
+                                  <div class="count-outer count-box">
+                                    <span
+                                      class="count-text"
+                                      data-speed="1500"
+                                      data-stop="440"
+                                      >0</span
+                                    >
+                                  </div>
+                                  <p>Job Seekers</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="col-lg-3 col-md-6 col-sm-12 counter-block"
+                            >
+                              <div class="counter-block-one">
+                                <div class="inner-box">
+                                  <div class="icon-box">
+                                    <i
+                                      aria-hidden="true"
+                                      class="flaticon-customer-review"
+                                    ></i>
+                                  </div>
+                                  <div class="count-outer count-box">
+                                    <span
+                                      class="count-text"
+                                      data-speed="1500"
+                                      data-stop="2887"
+                                      >0</span
+                                    >
+                                  </div>
+                                  <p>Happy Customers</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-62d5bc1 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="62d5bc1"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f83a17a"
+              data-id="f83a17a"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-f93032c elementor-widget elementor-widget-recvite_project"
+                  data-id="f93032c"
+                  data-element_type="widget"
+                  data-widget_type="recvite_project.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="project-section">
+                      <div class="auto-container">
+                        <div class="sec-title">
+                          <p class="typo-tagline-text">
+                            Staffing Recent Closed Projects
+                          </p>
+
+                          <h2 class="typo-title-text">
+                            Latest From Our Project
+                          </h2>
+                        </div>
+                      </div>
+                      <div class="outer-container">
+                        <div
+                          class="gallery-carousel owl-carousel owl-theme owl-dots-none nav-style-one"
+                        >
+                          <div class="project-block-one">
+                            <div class="inner-box">
+                              <figure class="image-box">
+                                <img
+                                  loading="lazy"
+                                  decoding="async"
+                                  width="330"
+                                  height="373"
+                                  src="images/project-1.jpg"
+                                  class="attachment-full size-full"
+                                  alt=""
+                                />
+                              </figure>
+                              <div class="link">
+                                <a
+                                  href="https://recvite.smartdemowp.com/wp-content/uploads/project-1.jpg"
+                                  class="lightbox-image"
+                                  data-fancybox="gallery"
+                                  ><i
+                                    aria-hidden="true"
+                                    class="flaticon-plus"
+                                  ></i
+                                ></a>
+                              </div>
+                              <div class="text">
+                                <p>Business.</p>
+                                <h3>
+                                  <a
+                                    href="https://recvite.smartdemowp.com/project/project-details/"
+                                    >Staffing Solutions</a
+                                  >
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="project-block-one">
+                            <div class="inner-box">
+                              <figure class="image-box">
+                                <img
+                                  loading="lazy"
+                                  decoding="async"
+                                  width="330"
+                                  height="373"
+                                  src="images/project-2.jpg"
+                                  class="attachment-full size-full"
+                                  alt=""
+                                />
+                              </figure>
+                              <div class="link">
+                                <a
+                                  href="https://recvite.smartdemowp.com/wp-content/uploads/project-2.jpg"
+                                  class="lightbox-image"
+                                  data-fancybox="gallery"
+                                  ><i
+                                    aria-hidden="true"
+                                    class="flaticon-plus"
+                                  ></i
+                                ></a>
+                              </div>
+                              <div class="text">
+                                <p>Stuffing</p>
+                                <h3>
+                                  <a
+                                    href="https://recvite.smartdemowp.com/project/project-details/"
+                                    >Staffing Solutions</a
+                                  >
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="project-block-one">
+                            <div class="inner-box">
+                              <figure class="image-box">
+                                <img
+                                  loading="lazy"
+                                  decoding="async"
+                                  width="330"
+                                  height="373"
+                                  src="images/project-3.jpg"
+                                  class="attachment-full size-full"
+                                  alt=""
+                                />
+                              </figure>
+                              <div class="link">
+                                <a
+                                  href="https://recvite.smartdemowp.com/wp-content/uploads/project-3.jpg"
+                                  class="lightbox-image"
+                                  data-fancybox="gallery"
+                                  ><i
+                                    aria-hidden="true"
+                                    class="flaticon-plus"
+                                  ></i
+                                ></a>
+                              </div>
+                              <div class="text">
+                                <p>Technology</p>
+                                <h3>
+                                  <a
+                                    href="https://recvite.smartdemowp.com/project/project-details/"
+                                    >Staffing Solutions</a
+                                  >
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="project-block-one">
+                            <div class="inner-box">
+                              <figure class="image-box">
+                                <img
+                                  loading="lazy"
+                                  decoding="async"
+                                  width="330"
+                                  height="373"
+                                  src="images/project-4.jpg"
+                                  class="attachment-full size-full"
+                                  alt=""
+                                />
+                              </figure>
+                              <div class="link">
+                                <a
+                                  href="https://recvite.smartdemowp.com/wp-content/uploads/project-4.jpg"
+                                  class="lightbox-image"
+                                  data-fancybox="gallery"
+                                  ><i
+                                    aria-hidden="true"
+                                    class="flaticon-plus"
+                                  ></i
+                                ></a>
+                              </div>
+                              <div class="text">
+                                <p>Resources</p>
+                                <h3>
+                                  <a
+                                    href="https://recvite.smartdemowp.com/project/project-details/"
+                                    >Staffing Solutions</a
+                                  >
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="project-block-one">
+                            <div class="inner-box">
+                              <figure class="image-box">
+                                <img
+                                  loading="lazy"
+                                  decoding="async"
+                                  width="330"
+                                  height="373"
+                                  src="images/project-5.jpg"
+                                  class="attachment-full size-full"
+                                  alt=""
+                                />
+                              </figure>
+                              <div class="link">
+                                <a
+                                  href="https://recvite.smartdemowp.com/wp-content/uploads/project-5.jpg"
+                                  class="lightbox-image"
+                                  data-fancybox="gallery"
+                                  ><i
+                                    aria-hidden="true"
+                                    class="flaticon-plus"
+                                  ></i
+                                ></a>
+                              </div>
+                              <div class="text">
+                                <p>Consulting</p>
+                                <h3>
+                                  <a
+                                    href="https://recvite.smartdemowp.com/project/project-details/"
+                                    >Staffing Solutions</a
+                                  >
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-6f690c8 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="6f690c8"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-efd8f75"
+              data-id="efd8f75"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-c782828 elementor-widget elementor-widget-recvite_working_process"
+                  data-id="c782828"
+                  data-element_type="widget"
+                  data-widget_type="recvite_working_process.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="working-process centred">
+                      <div class="auto-container">
+                        <div class="sec-title centred">
+                          <p class="typo-tagline-text">
+                            Staffing Recent Closed Projects
+                          </p>
+
+                          <h2 class="typo-title-text">We Choose a Recvite</h2>
+                        </div>
+                        <div class="row clearfix">
+                          <div
+                            class="col-lg-4 col-md-6 col-sm-12 process-block"
+                          >
+                            <div
+                              class="process-block-one wow fadeInUp animated animated"
+                              data-wow-delay="00ms"
+                              data-wow-duration="1500ms"
+                            >
+                              <div class="inner-box">
+                                <div class="icon-box">
+                                  <i
+                                    aria-hidden="true"
+                                    class="flaticon-investment"
+                                  ></i>
+                                  <span>01</span>
+                                  <div
+                                    class="icon-shape"
+                                    style="
+                                      background-image: url(images/shape-4.png);
+                                    "
+                                  ></div>
+                                </div>
+                                <h3>Consult with Team</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur notted
+                                  adipisicing elit sed do eiusmod.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-4 col-md-6 col-sm-12 process-block"
+                          >
+                            <div
+                              class="process-block-one wow fadeInUp animated animated"
+                              data-wow-delay="300ms"
+                              data-wow-duration="1500ms"
+                            >
+                              <div class="inner-box">
+                                <div class="icon-box">
+                                  <i
+                                    aria-hidden="true"
+                                    class="flaticon-checklist"
+                                  ></i>
+                                  <span>02</span>
+                                  <div
+                                    class="icon-shape"
+                                    style="
+                                      background-image: url(images/shape-4.png);
+                                    "
+                                  ></div>
+                                </div>
+                                <h3>Make a Schedule</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur notted
+                                  adipisicing elit sed do eiusmod.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-4 col-md-6 col-sm-12 process-block"
+                          >
+                            <div
+                              class="process-block-one wow fadeInUp animated animated"
+                              data-wow-delay="600ms"
+                              data-wow-duration="1500ms"
+                            >
+                              <div class="inner-box">
+                                <div class="icon-box">
+                                  <i
+                                    aria-hidden="true"
+                                    class="flaticon-outsourcing"
+                                  ></i>
+                                  <span>03</span>
+                                  <div
+                                    class="icon-shape"
+                                    style="
+                                      background-image: url(images/shape-4.png);
+                                    "
+                                  ></div>
+                                </div>
+                                <h3>Hire &amp; Enjoy</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur notted
+                                  adipisicing elit sed do eiusmod.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-e7c2aeb elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="e7c2aeb"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e1f2fbd"
+              data-id="e1f2fbd"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-cb3a319 elementor-widget elementor-widget-recvite_cta_section"
+                  data-id="cb3a319"
+                  data-element_type="widget"
+                  data-widget_type="recvite_cta_section.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="cta-section bg-color-2">
+                      <div class="auto-container">
+                        <div class="inner-box clearfix">
+                          <div class="text pull-left">
+                            <h2>Hire Your Next Candidate On Recvite</h2>
+                          </div>
+                          <div class="btn-box pull-right">
+                            <a
+                              href="https://recvite.smartdemowp.com/about-us/"
+                              class="theme-btn-one"
+                              >Discover More</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-8eceac5 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="8eceac5"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-35cfdf9"
+              data-id="35cfdf9"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-080c4f6 elementor-widget elementor-widget-recvite_progress"
+                  data-id="080c4f6"
+                  data-element_type="widget"
+                  data-widget_type="recvite_progress.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section
+                      class="progress-section"
+                      style="background-image: url(images/progress-1.jpg)"
+                    >
+                      <div class="auto-container">
+                        <div class="row clearfix">
+                          <div
+                            class="col-lg-5 col-md-12 col-sm-12 title-column"
+                          >
+                            <div class="sec-title light">
+                              <p class="typo-tagline-text">Staffing Partners</p>
+
+                              <h2 class="typo-title-text">
+                                We’re Here to Solve Recruitment Using Technology
+                              </h2>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-7 col-md-12 col-sm-12 content-column"
+                          >
+                            <div class="content_block_4">
+                              <div class="content-box">
+                                <div class="counter-inner">
+                                  <div class="inner-box">
+                                    <div class="icon-box">
+                                      <i
+                                        aria-hidden="true"
+                                        class="flaticon-customer-review"
+                                      ></i>
+                                    </div>
+                                    <div class="count-outer count-box">
+                                      <span
+                                        class="count-text"
+                                        data-speed="1500"
+                                        data-stop="2887"
+                                        >2887</span
+                                      >
+                                    </div>
+                                    <p>Happy Customers</p>
+                                  </div>
+                                </div>
+                                <div class="progress-inner">
+                                  <div class="text">
+                                    <p>
+                                      There are many simply free text available
+                                      variations of passages of but the majority
+                                      have in some.
+                                    </p>
+                                  </div>
+                                  <div class="progress-content">
+                                    <div class="progress-box">
+                                      <h5>Stuffing</h5>
+                                      <div class="bar">
+                                        <div
+                                          class="bar-inner count-bar"
+                                          data-percent="80%%"
+                                        >
+                                          <div class="count-text">80%</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="progress-box">
+                                      <h5>Recruitment</h5>
+                                      <div class="bar">
+                                        <div
+                                          class="bar-inner count-bar"
+                                          data-percent="60%%"
+                                        >
+                                          <div class="count-text">60%</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-3039d77 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="3039d77"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9e90a62"
+              data-id="9e90a62"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-9b9b786 elementor-widget elementor-widget-recvite_testimonial"
+                  data-id="9b9b786"
+                  data-element_type="widget"
+                  data-widget_type="recvite_testimonial.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="testimonial-section centred">
+                      <div class="auto-container">
+                        <div class="inner-container">
+                          <div
+                            class="three-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none"
+                          >
+                            <div class="testimonial-block-one">
+                              <div class="inner-box">
+                                <div class="icon-box"><span>"</span></div>
+                                <p>
+                                  This is due to their excellent service,
+                                  competitive pricing and customer support. It’s
+                                  throughly refresing to get such a personal
+                                  touch.
+                                </p>
+                                <h5>Mike Hardson</h5>
+                                <figure class="image-box">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="89"
+                                    height="89"
+                                    src="images/testimonial-1.png"
+                                    class="attachment-full size-full"
+                                    alt=""
+                                  />
+                                </figure>
+                              </div>
+                            </div>
+                            <div class="testimonial-block-one">
+                              <div class="inner-box">
+                                <div class="icon-box"><span>"</span></div>
+                                <p>
+                                  This is due to their excellent service,
+                                  competitive pricing and customer support. It’s
+                                  throughly refresing to get such a personal
+                                  touch.
+                                </p>
+                                <h5>Christine Eve</h5>
+                                <figure class="image-box">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="89"
+                                    height="89"
+                                    src="images/testimonial-2.png"
+                                    class="attachment-full size-full"
+                                    alt=""
+                                  />
+                                </figure>
+                              </div>
+                            </div>
+                            <div class="testimonial-block-one">
+                              <div class="inner-box">
+                                <div class="icon-box"><span>"</span></div>
+                                <p>
+                                  This is due to their excellent service,
+                                  competitive pricing and customer support. It’s
+                                  throughly refresing to get such a personal
+                                  touch.
+                                </p>
+                                <h5>Christine Eve</h5>
+                                <figure class="image-box">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="89"
+                                    height="89"
+                                    src="images/testimonial-3.png"
+                                    class="attachment-full size-full"
+                                    alt=""
+                                  />
+                                </figure>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-55781ab elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="55781ab"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3f03c92"
+              data-id="3f03c92"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-e7249b1 elementor-widget elementor-widget-recvite_clients"
+                  data-id="e7249b1"
+                  data-element_type="widget"
+                  data-widget_type="recvite_clients.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="clients-section">
+                      <div class="auto-container">
+                        <div
+                          class="clients-carousel owl-carousel owl-theme owl-nav-none owl-dots-none"
+                        >
+                          <figure class="clients-logo-box">
+                            <a href="#_"
+                              ><img
+                                loading="lazy"
+                                decoding="async"
+                                width="123"
+                                height="24"
+                                src="images/clients-logo-1.png"
+                                class="attachment-full size-full"
+                                alt=""
+                            /></a>
+                          </figure>
+                          <figure class="clients-logo-box">
+                            <a href="#_"
+                              ><img
+                                loading="lazy"
+                                decoding="async"
+                                width="123"
+                                height="24"
+                                src="images/clients-logo-2.png"
+                                class="attachment-full size-full"
+                                alt=""
+                            /></a>
+                          </figure>
+                          <figure class="clients-logo-box">
+                            <a href="#_"
+                              ><img
+                                loading="lazy"
+                                decoding="async"
+                                width="123"
+                                height="24"
+                                src="images/clients-logo-2.png"
+                                class="attachment-full size-full"
+                                alt=""
+                            /></a>
+                          </figure>
+                          <figure class="clients-logo-box">
+                            <a href="#_"
+                              ><img
+                                loading="lazy"
+                                decoding="async"
+                                width="123"
+                                height="24"
+                                src="images/clients-logo-2.png"
+                                class="attachment-full size-full"
+                                alt=""
+                            /></a>
+                          </figure>
+                          <figure class="clients-logo-box">
+                            <a href="#_"
+                              ><img
+                                loading="lazy"
+                                decoding="async"
+                                width="123"
+                                height="24"
+                                src="images/clients-logo-2.png"
+                                class="attachment-full size-full"
+                                alt=""
+                            /></a>
+                          </figure>
+                          <figure class="clients-logo-box">
+                            <a href="#_"
+                              ><img
+                                loading="lazy"
+                                decoding="async"
+                                width="123"
+                                height="24"
+                                src="images/clients-logo-2.png"
+                                class="attachment-full size-full"
+                                alt=""
+                            /></a>
+                          </figure>
+                          <figure class="clients-logo-box">
+                            <a href="#_"
+                              ><img
+                                loading="lazy"
+                                decoding="async"
+                                width="123"
+                                height="24"
+                                src="images/clients-logo-2.png"
+                                class="attachment-full size-full"
+                                alt=""
+                            /></a>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-e0a32ac elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="e0a32ac"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-209b2d4"
+              data-id="209b2d4"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-db6dc03 elementor-widget elementor-widget-blog_area"
+                  data-id="db6dc03"
+                  data-element_type="widget"
+                  data-widget_type="blog_area.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="news-section sec-pad bg-color-1">
+                      <div class="auto-container">
+                        <div class="row clearfix">
+                          <div
+                            class="col-lg-4 col-md-12 col-sm-12 title-column"
+                          >
+                            <div class="title-box">
+                              <div class="sec-title">
+                                <p class="typo-tagline-text">Our Blog Posts</p>
+
+                                <h2 class="typo-title-text">
+                                  Latest News &amp; Articles
+                                </h2>
+                              </div>
+                              <div class="text">
+                                <p>
+                                  Lorem ipsum onts perspicia unde omnis iste
+                                  natus errluptatem acc usan- tium demque
+                                  laudantium totam.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-8 col-md-12 col-sm-12 inner-column"
+                          >
+                            <div class="carousel-block">
+                              <div
+                                class="two-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one"
+                              >
+                                <div class="news-block-one">
+                                  <div class="inner-box">
+                                    <figure class="image-box">
+                                      <a
+                                        href="https://recvite.smartdemowp.com/we-make-a-revolution-in-word-class-building/"
+                                      >
+                                        <img
+                                          loading="lazy"
+                                          decoding="async"
+                                          width="370"
+                                          height="265"
+                                          src="images/news-13-370x265.jpg"
+                                          class="attachment-recvite-blog-grid-two size-recvite-blog-grid-two wp-post-image"
+                                          alt=""
+                                        />
+                                      </a>
+                                      <div class="post-date grid">
+                                        <h4>08</h4>
+                                        <p>Mar</p>
+                                      </div>
+                                    </figure>
+                                    <div class="lower-content">
+                                      <ul class="post-info clearfix">
+                                        <li>
+                                          <i class="far fa-folder-open"></i>
+                                          Recruitment
+                                        </li>
+                                        <li>
+                                          <i class="far fa-comments"></i
+                                          ><a
+                                            href="https://recvite.smartdemowp.com/we-make-a-revolution-in-word-class-building/"
+                                            >0 Comments</a
+                                          >
+                                        </li>
+                                      </ul>
+                                      <h3>
+                                        <a
+                                          href="https://recvite.smartdemowp.com/we-make-a-revolution-in-word-class-building/"
+                                          >We make a revolution in word class
+                                          building.</a
+                                        >
+                                      </h3>
+                                      <div class="admin">
+                                        <figure class="admin-thumb">
+                                          <img
+                                            alt=""
+                                            src="https://secure.gravatar.com/avatar/89d2fbfe4da7b6c76f60da740f93ad3d?s=33&amp;d=mm&amp;r=g"
+                                            class="avatar avatar-33 photo"
+                                            height="33"
+                                            width="33"
+                                          />
+                                        </figure>
+                                        <p>By recadmi</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="news-block-one">
+                                  <div class="inner-box">
+                                    <figure class="image-box">
+                                      <a
+                                        href="https://recvite.smartdemowp.com/get-few-solutions-to-hire-a-best-candidate-copy/"
+                                      >
+                                        <img
+                                          loading="lazy"
+                                          decoding="async"
+                                          width="370"
+                                          height="265"
+                                          src="images/news-10-370x265.jpg"
+                                          class="attachment-recvite-blog-grid-two size-recvite-blog-grid-two wp-post-image"
+                                          alt=""
+                                        />
+                                      </a>
+                                      <div class="post-date grid">
+                                        <h4>08</h4>
+                                        <p>Mar</p>
+                                      </div>
+                                    </figure>
+                                    <div class="lower-content">
+                                      <ul class="post-info clearfix">
+                                        <li>
+                                          <i class="far fa-folder-open"></i>
+                                          Resources
+                                        </li>
+                                        <li>
+                                          <i class="far fa-comments"></i
+                                          ><a
+                                            href="https://recvite.smartdemowp.com/get-few-solutions-to-hire-a-best-candidate-copy/"
+                                            >0 Comments</a
+                                          >
+                                        </li>
+                                      </ul>
+                                      <h3>
+                                        <a
+                                          href="https://recvite.smartdemowp.com/get-few-solutions-to-hire-a-best-candidate-copy/"
+                                          >Boost Leads Optimize Market New
+                                          Year</a
+                                        >
+                                      </h3>
+                                      <div class="admin">
+                                        <figure class="admin-thumb">
+                                          <img
+                                            alt=""
+                                            src="https://secure.gravatar.com/avatar/89d2fbfe4da7b6c76f60da740f93ad3d?s=33&amp;d=mm&amp;r=g"
+                                            class="avatar avatar-33 photo"
+                                            height="33"
+                                            width="33"
+                                          />
+                                        </figure>
+                                        <p>By recadmi</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="news-block-one">
+                                  <div class="inner-box">
+                                    <figure class="image-box">
+                                      <a
+                                        href="https://recvite.smartdemowp.com/engineering-of-the-winner-towers/"
+                                      >
+                                        <img
+                                          loading="lazy"
+                                          decoding="async"
+                                          width="370"
+                                          height="265"
+                                          src="images/news-11-370x265.jpg"
+                                          class="attachment-recvite-blog-grid-two size-recvite-blog-grid-two wp-post-image"
+                                          alt=""
+                                        />
+                                      </a>
+                                      <div class="post-date grid">
+                                        <h4>08</h4>
+                                        <p>Mar</p>
+                                      </div>
+                                    </figure>
+                                    <div class="lower-content">
+                                      <ul class="post-info clearfix">
+                                        <li>
+                                          <i class="far fa-folder-open"></i>
+                                          Business
+                                        </li>
+                                        <li>
+                                          <i class="far fa-comments"></i
+                                          ><a
+                                            href="https://recvite.smartdemowp.com/engineering-of-the-winner-towers/"
+                                            >0 Comments</a
+                                          >
+                                        </li>
+                                      </ul>
+                                      <h3>
+                                        <a
+                                          href="https://recvite.smartdemowp.com/engineering-of-the-winner-towers/"
+                                          >Professional Recruitment Agency</a
+                                        >
+                                      </h3>
+                                      <div class="admin">
+                                        <figure class="admin-thumb">
+                                          <img
+                                            alt=""
+                                            src="https://secure.gravatar.com/avatar/89d2fbfe4da7b6c76f60da740f93ad3d?s=33&amp;d=mm&amp;r=g"
+                                            class="avatar avatar-33 photo"
+                                            height="33"
+                                            width="33"
+                                          />
+                                        </figure>
+                                        <p>By recadmi</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="main-footer">
+        <div class="footer-top">
+          <div class="auto-container">
+            <div
+              data-elementor-type="page"
+              data-elementor-id="445"
+              class="elementor elementor-445"
+            >
+              <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-6e46f13 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                data-id="6e46f13"
+                data-element_type="section"
+              >
+                <div class="elementor-container elementor-column-gap-no">
+                  <div
+                    class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ac81ed2"
+                    data-id="ac81ed2"
+                    data-element_type="column"
+                  >
+                    <div
+                      class="elementor-widget-wrap elementor-element-populated"
+                    >
+                      <div
+                        class="elementor-element elementor-element-cb84181 elementor-widget elementor-widget-footer_info"
+                        data-id="cb84181"
+                        data-element_type="widget"
+                        data-widget_type="footer_info.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <div class="footer-info clearfix">
+                            <div class="single-item">
+                              <div class="inner">
+                                <div class="icon-box">
+                                  <i
+                                    aria-hidden="true"
+                                    class="flaticon-mail"
+                                  ></i>
+                                </div>
+                                <h6>Email</h6>
+                                <p>
+                                  <a
+                                    href="/cdn-cgi/l/email-protection#107e75757478757c60507568717d607c753e737f7d"
+                                    ><span
+                                      class="__cf_email__"
+                                      data-cfemail="204e45454448454c50604558414d504c450e434f4d"
+                                      >[email�&nbsp;protected]</span
+                                    ></a
+                                  >
+                                </p>
+                              </div>
+                            </div>
+                            <div class="single-item">
+                              <div class="inner">
+                                <div class="icon-box">
+                                  <i
+                                    aria-hidden="true"
+                                    class="flaticon-phone"
+                                  ></i>
+                                </div>
+                                <h6>Call</h6>
+                                <p>
+                                  <a href="tel:928886660000"
+                                    >+ 92 888 666 0000</a
+                                  >
+                                </p>
+                              </div>
+                            </div>
+                            <div class="single-item">
+                              <div class="inner">
+                                <div class="icon-box">
+                                  <i
+                                    aria-hidden="true"
+                                    class="flaticon-address"
+                                  ></i>
+                                </div>
+                                <h6>Address</h6>
+                                <p>Suite 20 Golden Street USA</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div
+              data-elementor-type="page"
+              data-elementor-id="441"
+              class="elementor elementor-441"
+            >
+              <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-3bb26a4 widget-section elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="3bb26a4"
+                data-element_type="section"
+              >
+                <div class="elementor-container elementor-column-gap-default">
+                  <div
+                    class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-9e2d9a7 col-lg-4 col-md-6 col-sm-12 footer-column"
+                    data-id="9e2d9a7"
+                    data-element_type="column"
+                  >
+                    <div
+                      class="elementor-widget-wrap elementor-element-populated"
+                    >
+                      <div
+                        class="elementor-element elementor-element-49ad730 elementor-widget elementor-widget-recvite_footer_logo"
+                        data-id="49ad730"
+                        data-element_type="widget"
+                        data-widget_type="recvite_footer_logo.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <div class="footer-widget logo-widget">
+                            <figure class="footer-logo">
+                              <a href="https://recvite.smartdemowp.com/">
+                                <img
+                                  width="757"
+                                  height="158"
+                                  src="images/logo-1_1.png"
+                                  class="attachment-full size-full"
+                                  alt=""
+                                  decoding="async"
+                                  loading="lazy"
+                              /></a>
+                            </figure>
+                            <p>Join our newsletter and get latest updates</p>
+                            <div
+                              class="wpcf7 no-js"
+                              id="wpcf7-f486-o1"
+                              lang="en-US"
+                              dir="ltr"
+                            >
+                              <div class="screen-reader-response">
+                                <p
+                                  role="status"
+                                  aria-live="polite"
+                                  aria-atomic="true"
+                                ></p>
+                                <ul></ul>
+                              </div>
+                              <form
+                                action="/#wpcf7-f486-o1"
+                                method="post"
+                                class="wpcf7-form init"
+                                aria-label="Contact form"
+                                novalidate="novalidate"
+                                data-status="init"
+                              >
+                                <div style="display: none">
+                                  <input
+                                    type="hidden"
+                                    name="_wpcf7"
+                                    value="486"
+                                  />
+                                  <input
+                                    type="hidden"
+                                    name="_wpcf7_version"
+                                    value="5.8.3"
+                                  />
+                                  <input
+                                    type="hidden"
+                                    name="_wpcf7_locale"
+                                    value="en_US"
+                                  />
+                                  <input
+                                    type="hidden"
+                                    name="_wpcf7_unit_tag"
+                                    value="wpcf7-f486-o1"
+                                  />
+                                  <input
+                                    type="hidden"
+                                    name="_wpcf7_container_post"
+                                    value="0"
+                                  />
+                                  <input
+                                    type="hidden"
+                                    name="_wpcf7_posted_data_hash"
+                                    value=""
+                                  />
+                                </div>
+                                <div class="form-group">
+                                  <p>
+                                    <span
+                                      class="wpcf7-form-control-wrap"
+                                      data-name="your-email"
+                                      ><input
+                                        size="40"
+                                        class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
+                                        aria-required="true"
+                                        aria-invalid="false"
+                                        placeholder="Email Address"
+                                        value=""
+                                        type="email"
+                                        name="your-email" /></span
+                                    ><button>
+                                      <i class="fas fa-check"></i>
+                                    </button>
+                                  </p>
+                                </div>
+                                <div
+                                  class="wpcf7-response-output"
+                                  aria-hidden="true"
+                                ></div>
+                              </form>
+                            </div>
+                            <ul class="social-links clearfix">
+                              <li>
+                                <h6>Connect</h6>
+                              </li>
+                              <li>
+                                <a href="#_"
+                                  ><i
+                                    aria-hidden="true"
+                                    class="fab fa-twitter"
+                                  ></i
+                                ></a>
+                              </li>
+                              <li>
+                                <a href="#_"
+                                  ><i
+                                    aria-hidden="true"
+                                    class="fab fa-facebook-square"
+                                  ></i
+                                ></a>
+                              </li>
+                              <li>
+                                <a href="#_"
+                                  ><i
+                                    aria-hidden="true"
+                                    class="fab fa-pinterest-p"
+                                  ></i
+                                ></a>
+                              </li>
+                              <li>
+                                <a href="#_"
+                                  ><i
+                                    aria-hidden="true"
+                                    class="fab fa-instagram"
+                                  ></i
+                                ></a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-2e062d6 col-lg-2 col-md-6 col-sm-12 footer-column"
+                    data-id="2e062d6"
+                    data-element_type="column"
+                  >
+                    <div
+                      class="elementor-widget-wrap elementor-element-populated"
+                    >
+                      <div
+                        class="elementor-element elementor-element-c630c5d elementor-widget elementor-widget-recvite_footer_menu"
+                        data-id="c630c5d"
+                        data-element_type="widget"
+                        data-widget_type="recvite_footer_menu.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <div class="footer-widget links-widget">
+                            <div class="widget-title">
+                              <h4 class="typo-title-text">Explore</h4>
+                            </div>
+                            <div class="widget-content">
+                              <ul
+                                id="menu-footer-menu-1"
+                                class="links-list clearfix"
+                              >
+                                <li
+                                  id="menu-item-1214"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1214"
+                                >
+                                  <a
+                                    href="https://recvite.smartdemowp.com/about-us/"
+                                    >About Us</a
+                                  >
+                                </li>
+                                <li
+                                  id="menu-item-1215"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1215"
+                                >
+                                  <a
+                                    href="https://recvite.smartdemowp.com/our-solutions/"
+                                    >Our Solutions</a
+                                  >
+                                </li>
+                                <li
+                                  id="menu-item-1216"
+                                  class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1216"
+                                >
+                                  <a
+                                    href="https://recvite.smartdemowp.com/project/project-details/"
+                                    >Project Details</a
+                                  >
+                                </li>
+                                <li
+                                  id="menu-item-1217"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1217"
+                                >
+                                  <a
+                                    href="https://recvite.smartdemowp.com/latest-projects/"
+                                    >Latest Projects</a
+                                  >
+                                </li>
+                                <li
+                                  id="menu-item-1221"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1221"
+                                >
+                                  <a
+                                    href="https://recvite.smartdemowp.com/contact-us/"
+                                    >Contact Us</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-18516e7 col-lg-2 col-md-6 col-sm-12 footer-column"
+                    data-id="18516e7"
+                    data-element_type="column"
+                  >
+                    <div
+                      class="elementor-widget-wrap elementor-element-populated"
+                    >
+                      <div
+                        class="elementor-element elementor-element-205c9f5 elementor-widget elementor-widget-recvite_footer_menu"
+                        data-id="205c9f5"
+                        data-element_type="widget"
+                        data-widget_type="recvite_footer_menu.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <div class="footer-widget links-widget ml-30">
+                            <div class="widget-title">
+                              <h4 class="typo-title-text">Links</h4>
+                            </div>
+                            <div class="widget-content">
+                              <ul
+                                id="menu-footer-menu-2"
+                                class="links-list clearfix"
+                              >
+                                <li
+                                  id="menu-item-1222"
+                                  class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1222"
+                                >
+                                  <a
+                                    href="https://recvite.smartdemowp.com/service/staff-management/"
+                                    >Staff Management</a
+                                  >
+                                </li>
+                                <li
+                                  id="menu-item-1223"
+                                  class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1223"
+                                >
+                                  <a
+                                    href="https://recvite.smartdemowp.com/service/leadership-training/"
+                                    >Leadership Training</a
+                                  >
+                                </li>
+                                <li
+                                  id="menu-item-1224"
+                                  class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1224"
+                                >
+                                  <a
+                                    href="https://recvite.smartdemowp.com/service/corporate-program/"
+                                    >Corporate Program</a
+                                  >
+                                </li>
+                                <li
+                                  id="menu-item-1225"
+                                  class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1225"
+                                >
+                                  <a
+                                    href="https://recvite.smartdemowp.com/service/staffing-solutions/"
+                                    >Staffing Solutions</a
+                                  >
+                                </li>
+                                <li
+                                  id="menu-item-1231"
+                                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1231"
+                                >
+                                  <a
+                                    href="https://recvite.smartdemowp.com/blog/"
+                                    >Blog Standard</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-08983b5 col-lg-4 col-md-6 col-sm-12 footer-column"
+                    data-id="08983b5"
+                    data-element_type="column"
+                  >
+                    <div
+                      class="elementor-widget-wrap elementor-element-populated"
+                    >
+                      <div
+                        class="elementor-element elementor-element-0a8c593 elementor-widget elementor-widget-popular_posts_footer"
+                        data-id="0a8c593"
+                        data-element_type="widget"
+                        data-widget_type="popular_posts_footer.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <div class="footer-widget post-widget ml-50">
+                            <div class="widget-title">
+                              <h4>News</h4>
+                            </div>
+                            <div class="post-inner">
+                              <div class="post">
+                                <figure class="post-thumb">
+                                  <a
+                                    href="https://recvite.smartdemowp.com/we-make-a-revolution-in-word-class-building/"
+                                  >
+                                    <img
+                                      width="70"
+                                      height="70"
+                                      src="images/news-13-70x70.jpg"
+                                      class="attachment-footer-image-size size-footer-image-size wp-post-image"
+                                      alt=""
+                                      decoding="async"
+                                      loading="lazy"
+                                    />
+                                  </a>
+                                </figure>
+                                <h6>
+                                  <a
+                                    href="https://recvite.smartdemowp.com/we-make-a-revolution-in-word-class-building/"
+                                  >
+                                    We make a revolution in word class building.
+                                  </a>
+                                </h6>
+                                <span class="post-date">March 08, 2021</span>
+                              </div>
+                              <div class="post">
+                                <figure class="post-thumb">
+                                  <a
+                                    href="https://recvite.smartdemowp.com/get-few-solutions-to-hire-a-best-candidate-copy/"
+                                  >
+                                    <img
+                                      width="70"
+                                      height="70"
+                                      src="images/news-10-70x70.jpg"
+                                      class="attachment-footer-image-size size-footer-image-size wp-post-image"
+                                      alt=""
+                                      decoding="async"
+                                      loading="lazy"
+                                    />
+                                  </a>
+                                </figure>
+                                <h6>
+                                  <a
+                                    href="https://recvite.smartdemowp.com/get-few-solutions-to-hire-a-best-candidate-copy/"
+                                  >
+                                    Boost Leads Optimize Market New Year
+                                  </a>
+                                </h6>
+                                <span class="post-date">March 08, 2021</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="auto-container">
+            <div class="inner-box clearfix">
+              <div class="copyright pull-left">
+                <p>
+                  © 2023 <a href="https://recvite.smartdemowp.com/">Recvite</a>.
+                  All rights reserved
+                </p>
+              </div>
+              <ul class="footer-nav pull-right">
+                <li><a href="https://recvite.smartdemowp.com/">Home</a></li>
+                <li>
+                  <a href="//recvite.smartdemowp.com/about-us/">About Us</a>
+                </li>
+                <li>
+                  <a href="https://recvite.smartdemowp.com/contact-us/"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <a
+        class="scroll-top scroll-to-target"
+        data-target="html"
+        href="javascript:void(0)"
+      >
+        <span class="fa fa-arrow-up"></span>
+      </a>
+    </div>
+    <link
+      rel="stylesheet"
+      id="elementor-post-445-css"
+      href="css/post-445.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-441-css"
+      href="css/post-441.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-icons-shared-0-css"
+      href="css/fontawesome.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-icons-fa-brands-css"
+      href="css/brands.min.css"
+      type="text/css"
+      media="all"
+    />
+    <script data-cfasync="false" src="js/email-decode.min.js"></script>
+    <script type="text/javascript" src="js/index.js" id="swv-js"></script>
+    <script type="text/javascript" id="contact-form-7-js-extra">
+      /* <![CDATA[ */
+      var wpcf7 = {
+        api: {
+          root: "https:\/\/recvite.smartdemowp.com\/wp-json\/",
+          namespace: "contact-form-7\/v1",
+        },
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="js/index_1.js"
+      id="contact-form-7-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/popper.min.js"
+      id="popper.min-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/bootstrap.min.js"
+      id="bootstrap.min-js"
+    ></script>
+    <script type="text/javascript" src="js/owl.js" id="owl-js"></script>
+    <script type="text/javascript" src="js/wow.js" id="wow-js"></script>
+    <script
+      type="text/javascript"
+      src="js/jquery.fancybox.js"
+      id="jquery-fancybox-js"
+    ></script>
+    <script type="text/javascript" src="js/appear.js" id="appear-js"></script>
+    <script
+      type="text/javascript"
+      src="js/scrollbar.js"
+      id="scrollbar-js"
+    ></script>
+    <script type="text/javascript" src="js/isotope.js" id="isotope-js"></script>
+    <script
+      type="text/javascript"
+      src="js/script.js"
+      id="recvite-mainscript-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/banner_carosel.js"
+      id="bannerslider-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/blog_carosel.js"
+      id="blog_carosel-js"
+    ></script>
+    <script type="text/javascript" src="js/clients.js" id="clients-js"></script>
+    <script
+      type="text/javascript"
+      src="js/progress.js"
+      id="progress-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/project-carosel.js"
+      id="project-carosel-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/testimonial.js"
+      id="testimonial-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/four-carosel.js"
+      id="four-carosel-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/single-carosel.js"
+      id="single-carosel-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/webpack.runtime.min.js"
+      id="elementor-webpack-runtime-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/frontend-modules.min.js"
+      id="elementor-frontend-modules-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/waypoints.min.js"
+      id="elementor-waypoints-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/core.min.js"
+      id="jquery-ui-core-js"
+    ></script>
+    <script type="text/javascript" id="elementor-frontend-js-before">
+      /* <![CDATA[ */
+      var elementorFrontendConfig = {
+        environmentMode: {
+          edit: false,
+          wpPreview: false,
+          isScriptDebug: false,
+        },
+        i18n: {
+          shareOnFacebook: "Share on Facebook",
+          shareOnTwitter: "Share on Twitter",
+          pinIt: "Pin it",
+          download: "Download",
+          downloadImage: "Download image",
+          fullscreen: "Fullscreen",
+          zoom: "Zoom",
+          share: "Share",
+          playVideo: "Play Video",
+          previous: "Previous",
+          next: "Next",
+          close: "Close",
+          a11yCarouselWrapperAriaLabel:
+            "Carousel | Horizontal scrolling: Arrow Left & Right",
+          a11yCarouselPrevSlideMessage: "Previous slide",
+          a11yCarouselNextSlideMessage: "Next slide",
+          a11yCarouselFirstSlideMessage: "This is the first slide",
+          a11yCarouselLastSlideMessage: "This is the last slide",
+          a11yCarouselPaginationBulletMessage: "Go to slide",
+        },
+        is_rtl: false,
+        breakpoints: { xs: 0, sm: 480, md: 768, lg: 1025, xl: 1440, xxl: 1600 },
+        responsive: {
+          breakpoints: {
+            mobile: {
+              label: "Mobile Portrait",
+              value: 767,
+              default_value: 767,
+              direction: "max",
+              is_enabled: true,
+            },
+            mobile_extra: {
+              label: "Mobile Landscape",
+              value: 880,
+              default_value: 880,
+              direction: "max",
+              is_enabled: false,
+            },
+            tablet: {
+              label: "Tablet Portrait",
+              value: 1024,
+              default_value: 1024,
+              direction: "max",
+              is_enabled: true,
+            },
+            tablet_extra: {
+              label: "Tablet Landscape",
+              value: 1200,
+              default_value: 1200,
+              direction: "max",
+              is_enabled: false,
+            },
+            laptop: {
+              label: "Laptop",
+              value: 1366,
+              default_value: 1366,
+              direction: "max",
+              is_enabled: false,
+            },
+            widescreen: {
+              label: "Widescreen",
+              value: 2400,
+              default_value: 2400,
+              direction: "min",
+              is_enabled: false,
+            },
+          },
+        },
+        version: "3.17.3",
+        is_static: false,
+        experimentalFeatures: {
+          e_dom_optimization: true,
+          e_optimized_assets_loading: true,
+          additional_custom_breakpoints: true,
+          "landing-pages": true,
+        },
+        urls: {
+          assets:
+            "https:\/\/recvite.smartdemowp.com\/wp-content\/plugins\/elementor\/assets\/",
+        },
+        swiperClass: "swiper-container",
+        settings: { page: [], editorPreferences: [] },
+        kit: {
+          active_breakpoints: ["viewport_mobile", "viewport_tablet"],
+          lightbox_enable_counter: "yes",
+          lightbox_enable_fullscreen: "yes",
+          lightbox_enable_zoom: "yes",
+          lightbox_enable_share: "yes",
+          lightbox_title_src: "title",
+          lightbox_description_src: "description",
+        },
+        post: {
+          id: 375,
+          title:
+            "Recvite%20Service%20Theme%20%E2%80%93%20Just%20another%20WordPress%20site",
+          excerpt: "",
+          featuredImage: false,
+        },
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="js/frontend.min.js"
+      id="elementor-frontend-js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,248 @@
+
+.service-details{
+  position: relative;
+  padding: 120px 0px;
+}
+
+.service-sidebar .category-widget{
+  position: relative;
+  display: block;
+  background: #f6f6f6;
+  padding: 32px 20px;
+  margin-bottom: 30px;
+}
+
+.service-sidebar .category-widget .category-list li{
+  position: relative;
+  display: block;
+}
+
+.service-sidebar .category-widget .category-list li a{
+  position: relative;
+  display: block;
+  padding: 15px 0px 14px 80px;
+  font-size: 16px;
+  color: #757575;
+  font-weight: 500;
+}
+
+.service-sidebar .category-widget .category-list li a.current,
+.service-sidebar .category-widget .category-list li a:hover{
+  background: #fff;
+  color: #272727;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.service-sidebar .category-widget .category-list li a i{
+  position: absolute;
+  left: 30px;
+  top: 16px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #757575;
+  transition: all 900ms ease;
+}
+
+.service-sidebar .category-widget .category-list li a.current i,
+.service-sidebar .category-widget .category-list li a:hover i{
+  color: #fff;
+}
+
+.service-sidebar .support-box{
+  position: relative;
+  display: block;
+}
+
+.service-sidebar .support-box .content-box{
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 0px 15px 34px 15px;
+}
+
+.service-sidebar .support-box img{
+  width: 100%;
+}
+
+.service-sidebar .support-box .content-box .icon-box{
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #272727;
+  margin-top: -49px;
+  margin-bottom: 22px;
+}
+
+.service-sidebar .support-box .content-box p{
+  font-size: 16px;
+  line-height: 30px;
+  font-style: italic;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 0px;
+}
+
+.service-sidebar .support-box .content-box h3{
+  position: relative;
+  display: block;
+  font-size: 26px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.service-sidebar .support-box .content-box h3 a{
+  display: inline-block;
+  color: #fff;
+}
+
+.service-sidebar .support-box .content-box h3 a:hover{
+  text-decoration: underline;
+}
+
+.service-details-content{
+  position: relative;
+}
+
+.service-details-content .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.service-details-content .image-box:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  box-shadow: inset 0px -300px 350px -40px rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  transition: all 500ms ease;
+}
+
+.service-details-content img{
+  width: 100%;
+}
+
+.service-details-content .image-box .category{
+  position: absolute;
+  display: inline-block;
+  top: 20px;
+  right: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 700;
+  padding: 4.5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 2;
+  transition: all 500ms ease;
+}
+
+.service-details-content .image-box i{
+  position: absolute;
+  left: 50px;
+  bottom: 35px;
+  font-size: 65px;
+  line-height: 50px;
+  z-index: 2;
+  transition: all 500ms ease;
+}
+
+.service-details-content .text h2{
+  position: relative;
+  display: block;
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.service-details-content .text p{
+  font-size: 18px;
+  line-height: 34px;
+  margin-bottom: 34px;
+}
+
+.service-details-content .text h4{
+  display: block;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 500;
+  font-style: italic;
+  padding-top: 6px;
+}
+
+.service-details-content .text{
+  margin-bottom: 45px;
+}
+
+.service-details-content .content_block_1 .content-box .inner-box .single-item{
+  padding-right: 20px;
+}
+
+.service-details-content .two-column .text h3{
+  position: relative;
+  display: block;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-bottom: 37px;
+}
+
+.service-details-content .two-column .text p{
+  font-size: 20px;
+}
+
+.service-details-content .two-column .list-item li {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 34px;
+  color: #757575;
+  margin-bottom: 15px;
+  padding-left: 28px;
+  margin-bottom: 6px;
+}
+
+.service-details-content .two-column .list-item li:last-child{
+  margin-bottom: 0px;
+}
+
+.service-details-content .two-column .list-item li:before {
+  position: absolute;
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Pro';
+  font-size: 16px;
+  left: 0px;
+  top: 0px;
+  font-weight: 700;
+}
+
+.service-details-content .content_block_1 .content-box .inner-box{
+  margin-bottom: 55px;
+}
+
+.service-details-content .two-column .text{
+  margin-bottom: 0px;
+}
+
+.service-details-content .two-column{
+  margin-bottom: 57px;
+}
