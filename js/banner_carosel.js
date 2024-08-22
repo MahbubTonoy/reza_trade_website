@@ -6,15 +6,17 @@
         // banner-carousel
         $('.banner-carousel').each(function() {
             let ajax_bannerSlider = $(this).data('owl');
-      
         if ($('.banner-carousel').length) {
             $('.banner-carousel').owlCarousel({
-                    loop:JSON.parse(ajax_bannerSlider.loop),
+                    // loop:ajax_bannerSlider.loop,
+                    loop:true,
                     margin:30,
-                    nav:JSON.parse(ajax_bannerSlider.arrows),
+                    // nav:ajax_bannerSlider.arrows,
+                    nav:false,
                     dots:false,
-                    autoplay: JSON.parse(ajax_bannerSlider.autoplay),
-                    autoplayTimeout:parseInt(ajax_bannerSlider.autoplay_speed),
+                    autoplay: ajax_bannerSlider.autoplay,
+                    // autoplayTimeout:parseInt(ajax_bannerSlider.autoplay_speed),
+                    autoplayTimeout: 8000,
                     autoplayHoverPause:false,
                     navText: [ '<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>' ],
                     responsive:{
