@@ -237,7 +237,7 @@
   }
 
   .footer-top .widget-section {
-    padding-bottom: 40px;
+    /* padding-bottom: 20px; */
   }
   .main-header.style-two .header-top .text {
     float: none;
@@ -545,7 +545,7 @@
   }
 
   .sec-pad {
-    padding: 65px 0px 70px 0px;
+    padding: 45px 0px 30px 0px;
   }
 
   .footer-top .footer-info .single-item {
@@ -850,7 +850,7 @@
   }
   .footer-column {
     width: 100%;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
   }
 
   .footer-bottom .footer-nav {

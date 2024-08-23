@@ -477,7 +477,7 @@
 }
 .elementor img {
   height: auto;
-  max-width: 100%;
+  max-width: 150%;
   border: none;
   border-radius: 0;
   box-shadow: none;
@@ -958,7 +958,7 @@ h1.entry-title {
 .elementor-column-gap-default
   > .elementor-column
   > .elementor-element-populated {
-  padding: 25px;
+  padding: 15px;
 }
 .elementor-column-gap-extended
   > .elementor-column

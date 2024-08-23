@@ -1421,7 +1421,7 @@ div#mCSB_1_container {
 }
 .footer-top .widget-section {
   position: relative;
-  padding: 75px 0px 78px 0px;
+  padding: 70px 0px 28px 0px;
 }
 .footer-top .widget-section .logo-widget .footer-logo {
   position: relative;
@@ -1538,7 +1538,7 @@ div#mCSB_1_container {
 .footer-top .widget-section .post-widget .post {
   position: relative;
   padding-left: 100px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
   min-height: 85px;
 }
 .footer-top .widget-section .post-widget .post:last-child {
@@ -3004,7 +3004,7 @@ ul.bread-crumb.clearfix {
 .main-header .sticky-header .logo-box img,
 .header-lower .logo-box img,
 .main-header .header-upper .logo-box img {
-  max-width: 146px;
+  max-width: 186px;
 }
 
 .single-info-box .icon-bg {
