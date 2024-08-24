@@ -1539,6 +1539,13 @@ div#mCSB_1_container {
   width: 555px;
   padding-top: 12px;
 }
+.location {
+  width: 78%;
+  margin: auto;
+}
+.location iframe {
+  width: 100%;
+}
 /* Base styles */
 .facilities {
   text-align: center;
