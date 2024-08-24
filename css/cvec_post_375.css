@@ -444,7 +444,11 @@
   margin-right: 20px;
   padding-bottom: 120px;
 }
-
+.image_block_1 .image-boxs {
+  position: relative;
+  display: block;
+  padding-bottom: 40px;
+}
 .image_block_1 .image-box img {
   width: 100%;
 }
@@ -460,7 +464,7 @@
 .image_block_1 .image-box .image-1 {
   position: relative;
   overflow: hidden;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .image_block_1 .image-box .image-1:before {
@@ -853,7 +857,7 @@
 .about-style-three .big-column .image {
   position: relative;
   float: left;
-  margin-right: 30px !important;
+  /* margin-right: 30px !important; */
 }
 
 .about-style-three .big-column .image:last-child {

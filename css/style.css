@@ -1535,6 +1535,108 @@ div#mCSB_1_container {
 .ml-50 {
   margin-left: 50px;
 }
+.serve {
+  width: 555px;
+  padding-top: 12px;
+}
+/* Base styles */
+.facilities {
+  text-align: center;
+  padding: 50px 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.facilities h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.facilities p {
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+
+.facilities .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.facilities-col {
+  flex: 1 1 calc(33.333% - 40px); /* 3 columns layout with gaps */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.facilities-col img {
+  width: 100%;
+  height: 70%;
+}
+
+.facilities-col h3 {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+.facilities-col p {
+  font-size: 1em;
+  padding: 0 20px 20px 20px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .facilities h1 {
+    font-size: 2em;
+  }
+  .facilities {
+    text-align: center;
+    padding: 50px 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .facilities p {
+    font-size: 0.9em;
+  }
+
+  .facilities-col {
+    flex: 1 1 calc(50% - 40px); /* 2 columns layout */
+  }
+
+  .facilities-col h3 {
+    font-size: 1.3em;
+  }
+
+  .facilities-col p {
+    font-size: 0.9em;
+  }
+}
+
+/* Small devices (phones, 480px and up) */
+@media (max-width: 480px) {
+  .facilities h1 {
+    font-size: 1.8em;
+  }
+
+  .facilities p {
+    font-size: 0.8em;
+  }
+
+  .facilities-col {
+    flex: 1 1 100%; /* Single column layout */
+  }
+
+  .facilities-col h3 {
+    font-size: 1.2em;
+  }
+
+  .facilities-col p {
+    font-size: 0.8em;
+  }
+}
 .footer-top .widget-section .post-widget .post {
   position: relative;
   padding-left: 100px;
